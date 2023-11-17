@@ -10,6 +10,7 @@ import {
   Button,
   SimpleGrid,
   Textarea,
+  Spacer
 } from '@chakra-ui/react';
 import { useState } from 'react';
 import { contactMessage } from '../utils/discordLog';
@@ -34,9 +35,10 @@ export default function JoinOurTeam() {
         >
           <Heading
             lineHeight={1.1}
-            fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}
+            fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '5xl' }}
           >
             ¿Alguna Consulta?
+            <Spacer/>
             <Text
               as={'span'}
               bgGradient='linear(to-r, cyan.400,pink.400)'
