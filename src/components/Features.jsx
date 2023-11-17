@@ -14,11 +14,11 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import {
-  FcAbout,
-  FcAssistant,
-  FcCollaboration,
-  FcDonate,
-  FcManager,
+  FcSettings ,
+  FcPositiveDynamic ,
+  FcAdvertising ,
+  FcCustomerSupport ,
+  FcFlashOn  ,
 } from 'react-icons/fc';
 
 const Card = ({ heading, description, icon }) => {
@@ -75,7 +75,7 @@ export default function gridListWith() {
         <Flex flexWrap='wrap' gridGap={'2rem'} justify='center'>
           <Card
             heading={'Optimización Total'}
-            icon={<Icon as={FcAssistant} w={10} h={10} />}
+            icon={<Icon as={FcSettings } w={10} h={10} />}
             description={
               'Unifica y optimiza tu eCommerce en tiempo real. Gestiona inventario y precios sin complicaciones.'
             }
@@ -83,7 +83,7 @@ export default function gridListWith() {
           />
           <Card
             heading={'Aumenta la Eficiencia'}
-            icon={<Icon as={FcCollaboration} w={10} h={10} />}
+            icon={<Icon as={FcPositiveDynamic  } w={10} h={10} />}
             description={
               'Automatización inteligente para liberarte de tareas repetitivas. Enfócate en hacer crecer tu negocio.'
             }
@@ -91,7 +91,7 @@ export default function gridListWith() {
           />
           <Card
             heading={'Maximiza tu Alcance'}
-            icon={<Icon as={FcDonate} w={10} h={10} />}
+            icon={<Icon as={FcAdvertising } w={10} h={10} />}
             description={
               'Sincroniza tu catálogo fácilmente en Mercado Libre, Woocommerce, Wix y Shopify. Alcanza nuevos mercados sin complicaciones.'
             }
@@ -99,7 +99,7 @@ export default function gridListWith() {
           />
           <Card
             heading={'Soporte Personalizado 24/7'}
-            icon={<Icon as={FcManager} w={10} h={10} />}
+            icon={<Icon as={FcCustomerSupport } w={10} h={10} />}
             description={
               'Recibe atención personalizada en cualquier momento. Nuestro equipo está disponible las 24 horas, los 7 días de la semana.'
             }
@@ -107,7 +107,7 @@ export default function gridListWith() {
           />
           <Card
             heading={'Escalabilidad sin limites'}
-            icon={<Icon as={FcAbout} w={10} h={10} />}
+            icon={<Icon as={FcFlashOn  } w={10} h={10} />}
             description={
               'Haz crecer tu negocio sin preocupaciones. Nuestra plataforma se adapta a tus necesidades, sin límites de escalabilidad.'
             }
