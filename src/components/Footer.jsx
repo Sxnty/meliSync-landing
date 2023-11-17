@@ -53,7 +53,7 @@ export default function LargeWithLogoLeft() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Compania</ListHeader>
-            <Box as="a" href={'#'}>
+            <Box as="a" href={'https://medialab.uy'}>
               MediaLab Solutions
             </Box>
           </Stack>
