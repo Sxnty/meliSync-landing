@@ -7,7 +7,6 @@ import {
   Stack,
   useColorMode,
   Heading,
-  Text,
 } from '@chakra-ui/react';
 import { GoMoon, GoSun } from 'react-icons/go';
 import { Link } from 'react-router-dom';
@@ -42,10 +41,7 @@ export default function Nav() {
         alignItems='center'
         py='.4rem'
       >
-        <Text fontWeight='bold' fontSize='1rem' color='white'>
-          ¡Calienta tu verano con un descuento exclusivo! Las primeras 15
-          empresas obtienen un 20% OFF.
-        </Text>
+
       </Flex>
       <Box
         bg={useColorModeValue('gray.100', 'gray.900')}
